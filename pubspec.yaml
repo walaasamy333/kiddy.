@@ -1,0 +1,38 @@
+name: kiddy
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # مكتباتك
+  flutter_staggered_animations: ^1.1.1
+  animated_text_kit: ^4.2.2
+  cupertino_icons: ^1.0.8
+  video_player: ^2.8.1
+  chewie: ^1.7.4
+  confetti: ^0.7.0
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/kiddy.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/vidio/
